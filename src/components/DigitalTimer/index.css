@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.digitalTimerComponent {
+  height: 100vh;
+  background-image: linear-gradient(to right, white, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.timerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+}
+
+.timerTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px 20px;
+  margin-left: 40px;
+  border-radius: 1000px;
+}
+
+.timerPara {
+  color: #00d9f5;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timerStatus {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.timerController {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startResetButton {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.timerMessage {
+  font-weight: bold;
+}
+
+.timeSetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setButton {
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.setText {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2px 20px 4px 20px;
+  background-color: #00d9f5;
+  border-radius: 5px;
+}
+
+.playPauseButton {
+  background-color: transparent;
+  border: none;
+}
